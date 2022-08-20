@@ -1,0 +1,150 @@
+#header {
+  /* position: relative; */
+  z-index: 1;
+  /* position: fixed; */
+  background-color: #e74c3c;
+}
+
+#logo {
+  color: white;
+  margin-top: 5px;
+}
+
+#menu {
+  list-style: none;
+  /* align-items: flex-end; */
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li a {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: white;
+}
+#menu li a:hover {
+  background-color: #c0392b;
+}
+#banner {
+  /* position: absolute; */
+  background: url("banner.jpg") no-repeat 0;
+  background-size: cover;
+}
+.banner-tittle {
+  padding-top: 5rem;
+}
+.banner-tittle h2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+.banner-tittle p.lead {
+  color: white;
+  background-color: rgba(231, 76, 60, 0.7);
+  padding: 10px;
+}
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  align-items: center;
+}
+.section h2.section-head {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section h2.section-head:after {
+  background: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+.service-box {
+  text-align: center;
+}
+.service-box i.fa {
+  color: #e74c3c;
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+#testimonials {
+  background: linear-gradient(
+      to bottom right,
+      rgba(52, 73, 94, 0.4),
+      rgb(2, 22, 43)
+    ),
+    url("nicolas-thomas-PLDkBHbM3Hc-unsplash.jpg") no-repeat 0;
+  background-size: cover;
+  position: relative;
+  padding: 50px 0;
+  color: white;
+}
+
+.section .test {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section .test:after {
+  background: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+.container .testi {
+  text-align: left;
+  display: flex;
+}
+.section .testi img {
+  border-radius: 30px;
+}
+.section .testi p {
+  display: block;
+  color: white;
+}
+#news #news-div {
+  display: flex;
+}
+#news #news-div h3 a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+#news #news-div .read-more {
+  color: #e74c3c;
+}
+#news #news-div p{
+  color: gray;
+}
+#footer-up {
+  color: white;
+  display: flex;
+  background-color: #34495e;
+}
+#footer-up .about:after{
+  background: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+
+}
+#footer{
+  color: white;
+  display: flex;
+  background-color: #2c3e50;
+}
+#footer .icon{
+  display:block;
+  margin: 10px;
+ 
+}
+
+
